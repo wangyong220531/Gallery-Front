@@ -1,0 +1,44 @@
+{
+    "cardList": [
+        {
+            "id": "000",
+            "name": "王一",
+            "imgUrl": "",
+            "captureTime": "2023-07-31 00:00:00",
+            "captureAddress": "淮安市清江浦区清江浦分局",
+            "haveVehicle": false
+        },
+        {
+            "id": "001",
+            "name": "王二",
+            "imgUrl": "",
+            "captureTime": "2023-07-31 00:00:00",
+            "captureAddress": "淮安市清江浦区清江浦分局",
+            "haveVehicle": true
+        },
+        {
+            "id": "002",
+            "name": "王三",
+            "imgUrl": "",
+            "captureTime": "2023-07-31 00:00:00",
+            "captureAddress": "淮安市清江浦区清江浦分局",
+            "haveVehicle": false
+        },
+        {
+            "id": "003",
+            "name": "王四",
+            "imgUrl": "",
+            "captureTime": "2023-07-31 00:00:00",
+            "captureAddress": "淮安市清江浦区清江浦分局",
+            "haveVehicle": false
+        },
+        {
+            "id": "004",
+            "name": "王五",
+            "imgUrl": "",
+            "captureTime": "2023-07-31 00:00:00",
+            "captureAddress": "淮安市清江浦区清江浦分局",
+            "haveVehicle": true
+        }
+    ]
+}
