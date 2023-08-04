@@ -6,8 +6,36 @@ import Main from "./Pages/Main"
 import Login from "./Pages/Login"
 import Detail from "./components/Detail"
 import Home from "./Pages/Home"
+import { useEffect } from "react"
+import { wyArraySort } from "wangyong-utils"
+
+interface Person {
+id:string
+age:number
+}
 
 function App() {
+    const arr: Person[] = [
+        {
+            id: "000",
+            age: 18
+        },
+        {
+            id: "000",
+            age: 21
+        },
+        {
+            id: "000",
+            age: 22
+        }
+    ]
+
+    useEffect(() => {
+        console.log(wyArraySort(arr, (a:Person,b:Person) => {
+            return a.age - b.age
+        }))
+    }, [])
+
     return (
         <>
             <BrowserRouter>
